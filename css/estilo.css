@@ -407,7 +407,41 @@ a{
 }
 .fundo-black,.hover-white:hover{
 	 color:#fff!important;
+	 border-radius:30px 30px 90px 30px;
 	 background-color:#000000!important
+}
+/* MENU  */
+#arrowunderlinebtrix{
+list-style-type:none;
+margin:0;
+padding:0;
+text-align:center; 
+}
+#arrowunderlinebtrix ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;border-radius: 10px 90px 10px 90px;
+}
+#arrowunderlinebtrix li{
+display:inline;
+margin-right:15px; 
+display: inline-block; 
+cursor: pointer;
+}
+#arrowunderlinebtrix li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;border-radius: 10px 20px 30px;
+}
+#arrowunderlinebtrix li a:hover:not(.active) {
+	background-color: #999;
+}
+#arrowunderlinebtrix .active {
+background-color: #222;
 }
 /* fundo do body */
 .fundo-preto,.hover-light-grey:hover,.light-gray,.hover-light-gray:hover{
