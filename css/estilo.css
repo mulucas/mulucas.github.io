@@ -445,8 +445,8 @@ background-color: #222;
 }
 /* fundo do body */
 .fundo-preto,.hover-light-grey:hover,.light-gray,.hover-light-gray:hover{
-	 color:#000!important;
-	 background-color:#0000ff!important
+	 color:#FFFFFF!important;
+	 background-color:#FFFFFF!important
 }
 .text-teal,.hover-text-teal:hover{
 	 color:#0000FF!important}
