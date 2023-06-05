@@ -313,7 +313,7 @@ a{
 @media (max-width:600px){
 	 .modal-content{margin:0 10px;width:auto!important}
 	 .modal{padding-top:30px}
-	 .dropdown-hover.mobile .dropdown-content,.dropdown-click.mobile .dropdown-content{position:relative}	
+	 .dropdown-hover.mobile .dropdown-content,.dropdown-click.mobile .dropdown-content{position:relative}
 	 .hide-small{display:none!important}
 	 .mobile{display:block;width:100%!important}
 	 .bar-item.mobile,.dropdown-hover.mobile,.dropdown-click.mobile{text-align:center}
@@ -412,36 +412,38 @@ a{
 }
 /* MENU  */
 #arrowunderlinebtrix{
-list-style-type:none;
-margin:0;
-padding:0;
-text-align:center; 
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	text-align:center;
 }
 #arrowunderlinebtrix ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #000;border-radius: 10px 90px 10px 90px;
+  background-color: #000;
+	border-radius: 30px 80px 30px 80px;
 }
 #arrowunderlinebtrix li{
-display:inline;
-margin-right:15px; 
-display: inline-block; 
-cursor: pointer;
+	display:inline;
+	margin-right:15px;
+	display: inline-block;
+	cursor: pointer;
 }
 #arrowunderlinebtrix li a{
 	display: block;
 	color: white;
 	text-align: center;
 	padding: 14px 16px;
-	text-decoration: none;border-radius: 10px 20px 30px;
+	text-decoration: none;
+	border-radius: 10px;
 }
 #arrowunderlinebtrix li a:hover:not(.active) {
 	background-color: #999;
 }
 #arrowunderlinebtrix .active {
-background-color: #222;
+	background-color: #222;
 }
 /* fundo do body */
 .fundo-preto,.hover-light-grey:hover,.light-gray,.hover-light-gray:hover{
